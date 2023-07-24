@@ -2,25 +2,18 @@
 
 int main(void)
 {
-    char arr[200];
-    char newarr[200];
-    int c, i, j;
+    char arr[MAX_LINE];
+
+    int c, i;
     i = 0;
-    j = 0;
-    while ((c = getchar()) != EOF)
+    while ((c = getchar()) != EOF)  //get char from stdout
     {
         arr[i] = c;
-        newarr[j] = arr[i];
         i++; 
-        j++;
     }
     arr[i] = '\0';
-    newarr[i] = '\0';
 
-    encrypt(newarr);
-    // revstr(newarr);
-    // decrypt(newarr);
+    encrypt(arr, 20);
 
-    printf("%s\n", newarr);
-
+    return (0);
 }
