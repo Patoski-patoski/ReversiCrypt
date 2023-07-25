@@ -49,9 +49,11 @@ of choice to encrypt/decrypt. Use the same code for encryption and decryption.
 
 ### Examples 
 1. Prompt for encryption
+   
 ![terminal display](./resources/my%20main.png)
 
 2. Result
+   
 ![encryption display](./resources/encrypt.png)
 
 ### Contributing
