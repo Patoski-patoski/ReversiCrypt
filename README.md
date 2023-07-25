@@ -1,6 +1,6 @@
 # REVERSCRIPT
 
-A C program that encrypt private files. txt and csv and markdown files are supported.
+A C program that encrypts private files. txt and csv and markdown files are supported.
 
 ## Table of Contents
 1. Description
@@ -12,12 +12,12 @@ A C program that encrypt private files. txt and csv and markdown files are suppo
 
 
 ### Features
-* User Input: Accept input from user from stdout. For smooth running, Preferably from text, csv or markdown format.
-* Text reversal: For optimum security, Reverses the order of characters in the input text.
-* Encryption: After reversal, applies encription. Accept input from user.
-* Decryption: After reversal and encription. The rich texts can be reformatted to human language.
+* User Input: Accept input from the user from stdout. For smooth running, Preferably from text, CSV or markdown format.
+* Text reversal: For optimum security, Reverse the order of characters in the input text.
+* Encryption: After the reversal, apply encryption. Accept input from the user.
+* Decryption: After reversal and encryption. The rich texts can be reformatted into human language.
 
-> Note : After encryption of text: It is at users risk if the secret code for encryption is lost. This would cause perment lose of original file.
+> Note: After the encryption of text: It is at the user's risk if the secret code for encryption is lost. This would cause permanent loss of the original file.
 
 ## Installation
 
@@ -36,15 +36,15 @@ cd Reverscript
 ```bash
 make launch && ./launch < total.txt > newencrypted.txt 144
 ```
- The command line arguments above is used to launch the program
- 1. make launch: launch the prgram
- 2. && ./launch: and execute
+ The command line arguments above are used to launch the program
+ 1. make launch: run the program
+ 2. && ./launch: execute
  3. < total.txt: take user input from a file called 'total.txt'
 4. (> newencrypted.txt): to display the executable in the newencrypted.txt file
  5. 144: The secret code of encryption. 
 
-User may use the secretcode, stdin and stdout stream
-of their choice to encrypt/decrypt. Use the same code for encryption and decryption.
+Users may use the secret code, stdin and stdout stream
+of choice to encrypt/decrypt. Use the same code for encryption and decryption.
 
 
 ### Examples 
@@ -55,4 +55,4 @@ of their choice to encrypt/decrypt. Use the same code for encryption and decrypt
 ![encryption display](./resources/encrypt.png)
 
 ### Contributing
-The program is free to the public for updates, bug-fixes and pull-requests are welcomed by the owners of this software.
+The program is free, contributions to bug fixes and pull requests are accepted
