@@ -1,6 +1,6 @@
 #include "header.h"
 
-int main(void)
+int main(int argc, char *argv[])
 {
     char arr[MAX_LINE];
 
@@ -13,7 +13,8 @@ int main(void)
     }
     arr[i] = '\0';
 
-    encrypt(arr, 20);
+    argv[0] = 0;
+    encrypt(arr, atoi(argv[1])); // convert to int
 
     return (0);
 }
